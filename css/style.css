@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px #7c7b77;
+    background-color: white;
+    height: 80px;
+}
+
+.header img {
+    width: 280px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.header li {
+    display: inline-block;
+    background-color: #FFCD00;
+    box-shadow: 10px 10px 10px #d8cfcfa4;
+    margin: 10px;
+    padding: 10px;
+    width: 120px;
+    border-radius: 20px;
+}
+
+.header a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    font-family: "typo-her-arnold";
+    justify-content: center;
+}
+
+.header ul {
+    padding: 25px;
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.header a:hover {
+    color: white;
+}
+
+@font-face {
+    font-family: "typo-her-arnold";
+    src: url(../recursos/tipografias/typo-hey-arnold/ARNORG__.TTF);
+}
+
+.img1 h1 {
+    padding: 15px;
+    margin: 10px;
+    width: 150px;
+    background-color: #FFCD00;
+}
+
+
+ .container {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "img1 img2"
+      "img3 img4";
+      
+  }
+  
+  .img1 { grid-area: img1; }
+  
+  .img2 { grid-area: img2; }
+  
+  .img3 { grid-area: img3; }
+  
+  .img4 { grid-area: img4; }
+  
+.img1 {
+    grid-area: img1;
+background-color: beige;
+display: flex;
+align-items: center;
+}
+
+
+.img2 {
+    grid-area: img2;
+    display: flex;
+    align-items: center;
+
+}
+
+.img3 {
+    grid-area: img3;
+    padding: 20px;
+width: 70%;
+display: flex;
+align-items: center;
+
+}
+
+.img4{
+    grid-area: img4;
+    padding: 20px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.container img {
+    width: 100%;
+}
+
+.main-personajes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+
+.main-personajes h2 {
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    background-color: #FFCD00;
+    display: flex;
+    justify-content: center;
+    }
+
+.main-personajes p {
+    padding: 10px;
+    margin: 10px;
+    width: 1000px;
+    background-color: beige;
+}
+
+
+.main-temporadas h1 {
+    font-family: "typo-her-arnold";
+    padding: 15px;
+    margin: 30px;
+    width: 100vw;
+    background-color: #FFCD00;
+    display: flex;
+    justify-content: center;
+}
+
+.main-temporadas section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.main-temporadas div {
+    padding: 10px;
+    margin: 30px;
+    height: 500px;
+    width: 400px;
+    background-color: beige;
+}
+
+.main-temporadas a {
+    height: 30px;
+    background-color: #FFCD00;
+    color: black;
+    text-decoration: none;
+    font-family: "typo-her-arnold";
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.main-temporadas a:hover {
+    color: white;
+}
+
+.main-temporadas img {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    width: 350px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.main-soundtrack{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.main-soundtrack h1 {
+    font-family: "typo-her-arnold";
+    padding: 15px;
+    margin: 10px;
+    width: 400px;
+    background-color: #FFCD00;
+}
+
+.main-soundtrack p {
+    padding: 10px;
+    margin: 30px;
+    width: 1000px;
+    background-color: beige;
+}
+
+.iframe-spotify {
+    width: 500px;
+    height: 500px;
+}
+
+.iframe-yt {
+    width: 800px;
+    height: 500px;
+}
+
+.main-contacto{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+.main-contacto h1 {
+    padding: 15px;
+    margin: 30px;
+    width: 300px;
+    background-color: #FFCD00;
+}
+
+.main-contacto p {
+    padding: 10px;
+    margin: 10px;
+    width: 800px;
+    background-color: beige;
+}
+
+.formulario {
+    padding: 10px;
+    margin: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #977a01;
+}
+
+.footer li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+    font-family: "typo-her-arnold";
+}
+
+.footer p {
+    display: flex;
+    font-family: "typo-her-arnold";
+    align-items: center;
+}
+
+@media (max-width:500px) {
+    .main-temporadas img {
+        display: flex;
+        padding: 10px;
+        margin: 10px;
+        width: 280px;
+
+    }
+
+    .main-temporadas div {
+        padding: 10px;
+        margin: 30px;
+        height: 400px;
+        width: 400px;
+        background-color: beige;
+    }
+
+    .main-temporadas a {
+        height: 30px;
+        background-color: #FFCD00;
+        color: black;
+        text-decoration: none;
+        font-family: "typo-her-arnold";
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .header {
+        height: 250px;
+        padding: 15px;
+        margin: 10px;
+        flex-wrap: wrap;
+    }
+
+    .header ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .header li {
+        width: 100px;
+    }
+
+    .main-temporadas h1 {
+        width: 300px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+            "img1"
+            "img1"
+            "img2"
+            "img2"
+            "img3"
+            "img4";
+        align-items: center;
+    }
+}
