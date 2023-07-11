@@ -116,14 +116,28 @@ align-items: center;
     width: 100%;
 }
 
+
+.card-1{
+    padding: 50px;
+}
+
+.main-personajes h1{
+width: 1200px;
+padding: 20px;
+margin: 20px;
+background-color: beige;
+display: flex;
+justify-content: center;
+}
+
 .main-personajes{
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-wrap: wrap;
-        justify-content: space-evenly;
     }
 
-
-.main-personajes h2 {
+    .main-personajes h2 {
     padding: 15px;
     margin: 10px;
     width: 200px;
